@@ -1,0 +1,125 @@
+/* General styling for all pages */
+body {
+    background: linear-gradient(to right, #FDEFFB, #EFD8EF, #E3D4F1, #F8E7F8);
+    font-family: 'Montserrat', sans-serif;
+    color: #4A235A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container to center content */
+.container {
+    background-color: #FFF0F5; /* Soft pastel pink */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 550px;
+    text-align: center;
+    border: 1px solid rgba(220, 220, 255, 0.4); /* Pastel border */
+}
+
+/* Heading styling */
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3.5em;
+    color: #7F4AA2; /* Soft lavender */
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Input fields */
+input, textarea, select {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 15px;
+    border: 2px solid #D8BFD8;
+    background-color: #F0F8FF; /* Light pastel background */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    color: #4A235A;
+    transition: border 0.3s ease-in-out;
+}
+
+/* Input and text area focus effect */
+input:focus, textarea:focus, select:focus {
+    border: 2px solid #BA55D3; /* Deeper pastel highlight on focus */
+    outline: none;
+    box-shadow: 0 0 10px rgba(186, 85, 211, 0.2);
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 15px;
+    background-color: #BA55D3; /* Deep lavender */
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease;
+}
+
+/* Button hover and click effects */
+button:hover {
+    background-color: #9932CC; /* Darker lavender */
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+button:active {
+    transform: scale(0.98); /* Shrink slightly on click */
+}
+
+/* Feedback section styling */
+#feedbackSection {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #FDEEF7; /* Light pink hue */
+    border-radius: 15px;
+    border: 1px solid #E1D0F5; /* Soft purple border */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+    color: #4A235A;
+    text-align: left;
+}
+
+/* Paragraph styling for feedback text */
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Subtle hover effect for input fields */
+input:hover, textarea:hover, select:hover {
+    border-color: #B19CD9; /* Soft pastel purple on hover */
+}
+
+/* Additional color accents */
+input::placeholder, textarea::placeholder {
+    color: #A992B0; /* Subtle placeholder color */
+}
+
+/* Overall container for the site */
+html, body {
+    height: 100%;
+    background: linear-gradient(to right, #FADADD, #D8BFD8, #E6E6FA, #FDEEF7);
+}
+
+/* Links to sign up/sign in */
+a {
+    color: #9932CC;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
